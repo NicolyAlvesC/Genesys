@@ -11,8 +11,8 @@ export default function Home() {
                 <div className="subtitulo">
                     Technology Development
                 </div>
-                <Seta/>
             </div>
+             <Seta/>
         </Container>
     )
 }

@@ -1,5 +1,5 @@
 import { SetaCss } from './styled'
-import arrow from '../../../src/images/arrow.svg';
+import arrow from '../../assets/images/arrow.svg'
 
 export default function Seta() {
     return (
