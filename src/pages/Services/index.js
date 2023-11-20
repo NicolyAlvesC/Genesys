@@ -1,31 +1,18 @@
 import { ConteinerService } from './styled';
+
+
 import imagem01 from '../../assets/images/imagem 01.jpg'
 import imagem02 from '../../assets/images/imagem 02.jpg'
 import imagem03 from '../../assets/images/imagem 03.jpg'
 import imagem04 from '../../assets/images/imagem 04.jpg'
 import imagem05 from '../../assets/images/imagem 05.jpg'
 import imagem06 from '../../assets/images/imagem 06.jpg'
-import imagem07 from '../../assets/images/imagem 07.jpg'
 import imagem08 from '../../assets/images/imagem 08.png'
 
 export default function Services() {
 
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
-}
     return (
-        
+      
         <ConteinerService>
             <div className="conteiner">
                 <div className='boxao'>
@@ -33,23 +20,19 @@ for (i = 0; i < acc.length; i++) {
                         <div className="titulo">
                             Serviços
                         </div>
-                            <h2>Animated Accordion</h2>
-<p>Click on the buttons to open the collapsible content.</p>
+    
 
-<button class="accordion">Section 1</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
 
-<button class="accordion">Section 2</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
 
-<button class="accordion">Section 3</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
+
+
+
+
+
+
+
+
+
 
                     </div>
                     <div className="linha"></div>
