@@ -1,10 +1,10 @@
-import img01 from '../../assets/images/imagem 01.svg';
-import img02 from '../../assets/images/imagem 02.svg';
-import img03 from '../../assets/images/imagem 03.svg';
-import img04 from '../../assets/images/imagem 04.svg';
-import img05 from '../../assets/images/imagem 05.svg';
-
 import { ConteinerService } from './styled';
+import imagem01 from '../../assets/images/imagem 01.jpg'
+import imagem02 from '../../assets/images/imagem 02.jpg'
+import imagem03 from '../../assets/images/imagem 03.jpg'
+import imagem04 from '../../assets/images/imagem 04.jpg'
+import imagem05 from '../../assets/images/imagem 05.jpg'
+import imagem06 from '../../assets/images/imagem 06.jpg'
 
 export default function Services() {
     return (
@@ -24,18 +24,26 @@ export default function Services() {
                     </div>
                     <div className="linha"></div>
                     <div className="box-2">
-                        <div className="subtitulo">
+                        <div className="titulo">
                             Galeria
                         </div>
-                        <div className='page'>
-                            <div className='item header'> header</div>
-                            <div className='item menu'> menu</div>
-                            <div className='item main'> main</div>
+                        <div className='fotos'>
+                        <div className='header-1'>
+                                <img src={imagem04} alt='dave-2' className='maior'/>
+                                <img src={imagem03} alt='dave-1' className='maior-lado'/>
+                            </div> 
+                             <div className='header-2'>
+                                <img src={imagem05} alt='bre-2' className='maior-baixo-lado'/>
+                                <img src={imagem06} alt='bre-1' className='maior-baixo'/>
+                            </div>  
+                            <div className='header-3'>
+                                <img src={imagem01} alt='gab-1' className='menor'/>
+                                <img src={imagem02} alt='gab-2' className='menor-lado' />
+                            </div>
                         </div>
                     </div>
+                    
                 </div>
-              
-               
             </div>
         </ConteinerService>
     )
