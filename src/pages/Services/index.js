@@ -15,6 +15,12 @@ export default function Services() {
                         <div className="titulo">
                             Serviços
                         </div>
+                        <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <p>sasa</p>
+                         </div>
+                    </div>
                     </div>
                     <div className="linha"></div>
                     <div className="box-2">
