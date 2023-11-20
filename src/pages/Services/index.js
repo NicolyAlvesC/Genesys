@@ -1,10 +1,9 @@
-import img01 from '../../assets/images/imagem 01.svg';
-import img02 from '../../assets/images/imagem 02.svg';
-import img03 from '../../assets/images/imagem 03.svg';
-import img04 from '../../assets/images/imagem 04.svg';
-import img05 from '../../assets/images/imagem 05.svg';
-
 import { ConteinerService } from './styled';
+import imagem01 from '../../assets/images/imagem 01.jpg'
+import imagem02 from '../../assets/images/imagem 02.jpg'
+import imagem03 from '../../assets/images/imagem 03.jpg'
+import imagem04 from '../../assets/images/imagem 04.jpg'
+import imagem05 from '../../assets/images/imagem 05.jpg'
 
 export default function Services() {
     return (
@@ -21,15 +20,22 @@ export default function Services() {
                         <div className="subtitulo">
                             Galeria
                         </div>
-                        <div className='page'>
-                            <div className='item header'> header</div>
-                            <div className='item menu'> menu</div>
-                            <div className='item main'> main</div>
-                        </div>
+                        {/* <div className='fotos'>
+                            <div className='header'>
+                                <img src={imagem04} alt='' className='maior'/>
+                                <img src={imagem03} alt='' className='maior-baixo'/>
+                            </div>
+                            <div className='aside-1'>
+                                <img src={imagem02} alt='' className='maior-lado'/>
+                                <img src={imagem01} alt='' className='maior-baixo-lado'/>
+                            </div>
+                            <div className='headerInversa'>
+                                <img src={imagem05} alt='' className='menor-maior'/>
+                            </div>
+                        </div> */}
                     </div>
+                    
                 </div>
-              
-               
             </div>
         </ConteinerService>
     )
