@@ -4,6 +4,7 @@ import imagem02 from '../../assets/images/imagem 02.jpg'
 import imagem03 from '../../assets/images/imagem 03.jpg'
 import imagem04 from '../../assets/images/imagem 04.jpg'
 import imagem05 from '../../assets/images/imagem 05.jpg'
+import imagem06 from '../../assets/images/imagem 06.jpg'
 
 export default function Services() {
     return (
@@ -17,22 +18,23 @@ export default function Services() {
                     </div>
                     <div className="linha"></div>
                     <div className="box-2">
-                        <div className="subtitulo">
+                        <div className="titulo">
                             Galeria
                         </div>
-                        {/* <div className='fotos'>
-                            <div className='header'>
-                                <img src={imagem04} alt='' className='maior'/>
-                                <img src={imagem03} alt='' className='maior-baixo'/>
+                        <div className='fotos'>
+                        <div className='header-1'>
+                                <img src={imagem04} alt='dave-2' className='maior'/>
+                                <img src={imagem03} alt='dave-1' className='maior-lado'/>
+                            </div> 
+                             <div className='header-2'>
+                                <img src={imagem05} alt='bre-2' className='maior-baixo-lado'/>
+                                <img src={imagem06} alt='bre-1' className='maior-baixo'/>
+                            </div>  
+                            <div className='header-3'>
+                                <img src={imagem01} alt='gab-1' className='menor'/>
+                                <img src={imagem02} alt='gab-2' className='menor-lado' />
                             </div>
-                            <div className='aside-1'>
-                                <img src={imagem02} alt='' className='maior-lado'/>
-                                <img src={imagem01} alt='' className='maior-baixo-lado'/>
-                            </div>
-                            <div className='headerInversa'>
-                                <img src={imagem05} alt='' className='menor-maior'/>
-                            </div>
-                        </div> */}
+                        </div>
                     </div>
                     
                 </div>
