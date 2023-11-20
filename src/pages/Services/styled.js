@@ -17,13 +17,12 @@ const ConteinerService = styled.div`
 
   justify-content: center;
 
-  
 
   border: 3px solid yellow;
 }
 
 .box-2 {
-  border: 1px solid red;
+ 
   width: 40vw;
   align-items: center;
 }
@@ -50,20 +49,21 @@ const ConteinerService = styled.div`
 }
 
 img {
-  border: 2px solid #FF6B;
+  border: 1px solid black;
 }
 .fotos {
   display: flex;
   flex-direction: column;
 
-  border:3px solid orangered ;
-  width: 35vw;
-  height: 50vh;
+  background-color: black;
+  border:3px solid #FF6B00;;
 
+  width: 35vw;
+  height: 62vh;
   margin: 2.5em 2.5em 0em 2.5em !important;
 }
 
-.header-1, .header-2, .header-3 {
+.header-1, .header-2 {
   display: flex;
   flex-direction: row;
 
@@ -90,16 +90,27 @@ img {
   height: 23vh;
 }
 
+.header-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .menor {
-  width: 10vw;
-  height: 20vh;
+  width: 19vw;
+  height: 18.5vh;
 }
 
 .menor-lado {
-  width: 10vw;
-  height: 10vh;
-
+  width: 13vw;
+  height: 18.5vh;
 } 
+
+.menor-lado-lado {
+  width:24vw;
+  height: 18.5vh;
+}
+
 
 
 `
