@@ -1,5 +1,5 @@
 import { Container } from "./styles"
-import Seta from "../../components/seta"
+// import Seta from "../../components/seta"
 
 export default function Home() {
     return (
@@ -12,7 +12,7 @@ export default function Home() {
                     Technology Development
                 </div>
             </div>
-             <Seta/>
+             {/* <Seta/> */}
         </Container>
     )
 }

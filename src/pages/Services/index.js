@@ -1,5 +1,5 @@
 import { ConteinerService } from './styled';
-
+import Linha  from '../../components/linha/index';
 
 import imagem01 from '../../assets/images/imagem 01.jpg'
 import imagem02 from '../../assets/images/imagem 02.jpg'
@@ -21,6 +21,7 @@ export default function Services() {
                         <div className="titulo">
                             Serviços
                         </div>
+                       
                         <div className="servicos">
                             <div className='manutencao'>
                                 <div className='titulo-1'>
@@ -40,7 +41,7 @@ export default function Services() {
                             </div>
                         </div>
                     </div>
-                    <div className="linha"></div>
+                    <Linha />
                     <div className="box-2">
                         <div className="titulo">
                             Galeria

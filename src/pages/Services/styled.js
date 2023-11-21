@@ -29,11 +29,6 @@ const ConteinerService = styled.div`
 }
 
 
-.linha {
-  height: 82vh;
-  border-left: 3px solid #FF6B00;
-  margin: 3em 5em;
-}
 
 .titulo{
   font-family: 'Bai Jamjuree', sans-serif;
