@@ -21,7 +21,7 @@ const Container = styled.div`
     }
 
     .titulo {
-        font-family: 'Bai Jamjuree', sans-serif;
+       font-family: 'Bai Jamjuree', sans-serif; 
         text-align: center;
         color: #070E4E;
         font-size: 5em;
