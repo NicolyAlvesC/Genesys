@@ -8,6 +8,7 @@ import imagem04 from '../../assets/images/imagem 04.jpg'
 import imagem05 from '../../assets/images/imagem 05.jpg'
 import imagem06 from '../../assets/images/imagem 06.jpg'
 import imagem08 from '../../assets/images/imagem 08.png'
+import setinha from '../../assets/images/seta.svg'
 
 export default function Services() {
 
@@ -20,20 +21,24 @@ export default function Services() {
                         <div className="titulo">
                             Serviços
                         </div>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
+                        <div className="servicos">
+                            <div className='manutencao'>
+                                <div className='titulo-1'>
+                                <img src={setinha} alt='seta' className='seta'/>Manutenção
+                                </div>
+                                <div className='descricao-1'>
+                                   Esse serviço consiste em formatação de máquina (Desktops e/ou Notebooks), configuração e a possibilidade de realizar uma análise de peças para possíveis trocas.
+                                </div>
+                            </div>
+                            <div className='orcamentos'>
+                                <div className='titulo-2'>
+                                <img src={setinha} alt='seta' className='seta'/>Orçamentos
+                                </div>
+                                <div className='descricao-2'>
+                                Esse serviço consiste em uma conversa com o cliente para orçar a montagem de uma máquina. 
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className="linha"></div>
                     <div className="box-2">

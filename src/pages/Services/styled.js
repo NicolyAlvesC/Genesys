@@ -16,9 +16,6 @@ const ConteinerService = styled.div`
   flex-direction: row;
 
   justify-content: center;
-
-
-  border: 3px solid yellow;
 }
 
 .box-2 {
@@ -28,7 +25,6 @@ const ConteinerService = styled.div`
 }
 
 .box-1 {
-  border: 1px solid cyan;
   width: 40vw;
 }
 
@@ -48,9 +44,7 @@ const ConteinerService = styled.div`
   margin-top: 1em;
 }
 
-img {
-  border: 1px solid black;
-}
+
 .fotos {
   display: flex;
   flex-direction: column;
@@ -115,6 +109,39 @@ img {
 
 
 
+.servicos {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+}
+
+.manutencao, .orcamentos {
+  /* border: 1px solid orange; */
+  width: 30vw;
+  height: 19vh;
+  text-align: left;
+  margin: 2em 0em 2em 0em;
+}
+
+.titulo-1, .titulo-2 {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 3em;
+  color: #070E4E;
+}
+
+.seta {
+  margin-right: 0.2em;
+}
+
+.descricao-1, .descricao-2 {
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: #070E4E;
+  font-size: 1.4em;
+  margin-top: 0.4em;
+  text-align: justify;
+  text-indent: 0.35em;
+}
 
 
 
