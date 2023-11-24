@@ -37,6 +37,8 @@ const ConteinerService = styled.div`
   font-size: 5em;
   text-decoration: #FF6B00 underline;
   margin-top: 1em;
+
+  
 }
 
 
@@ -49,7 +51,7 @@ const ConteinerService = styled.div`
 
   width: 35vw;
   height: 62vh;
-  margin: 2.5em 2.5em 0em 2.5em !important;
+  margin: 2em 3em 0em 2.5em !important;
 }
 
 .header-1, .header-2 {
@@ -113,10 +115,10 @@ const ConteinerService = styled.div`
 
 .manutencao, .orcamentos {
   /* border: 1px solid orange; */
-  width: 30vw;
+  width: 22vw;
   height: 19vh;
   text-align: left;
-  margin: 2em 0em 2em 0em;
+  margin: 2em 0em 2em 10em;
 }
 
 .titulo-1, .titulo-2 {

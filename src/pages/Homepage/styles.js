@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
 
+
     @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&display=swap');
 
     display: flex;
@@ -21,18 +22,65 @@ const Container = styled.div`
     }
 
     .titulo {
-       font-family: 'Bai Jamjuree', sans-serif; 
-        text-align: center;
         color: #070E4E;
+        font-family: 'Bai Jamjuree', sans-serif; 
         font-size: 5em;
+        text-align: center;
         text-decoration: #FF6B00 underline;
+
+        
+}
+
+
+
+    p:\nth-child(2) { 
+        animation: type2 20s steps(60, end);
     }
+
+    
+    span{
+    animation: blink 1s infinite;
+    }
+
+    @keyframes type{ 
+    from { width: 0; } 
+    } 
+
+    @keyframes type2{
+    0%{width: 0;}
+    50%{width: 30;}
+    100%{ width: 100; } 
+    } 
+
+    @keyframes blink{
+    to{opacity: .0;}
+    }
+
 
     .subtitulo {
         font-family: 'Bai Jamjuree', sans-serif;
-        text-align: center;
+        
         color: #070E4E;
         font-size: 1.7em;
+
+        white-space: nowrap; 
+        overflow: hidden; 
+        width: 20vw;
+        margin-left: 6.5em;
+        margin-top: -1em;
+        animation: type 3s steps(60, end);
     }
+
+
+    ::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
 `
 export {Container}
