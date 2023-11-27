@@ -46,7 +46,9 @@ export default function Contact() {
                     Sobre Mim
                 </div>
                 <div className="descricao">
-                    Lorem ipsum dolor sit amet consectetur. Faucibus sit massa at viverra malesuada risus aliquam felis. Turpis a aliquet tincidunt amet ut tortor. Leo odio nisl malesuada faucibus a viverra elementum pharetra quis. Sed pellentesque amet velit iaculis lacus nisl dolor. Dictum iaculis eget sed tellus. Gravida integer ultricies et nisi etiam risus fames est diam. Arcu.
+                  Ao longo de 25 anos de vida, tenho dedicado meu tempo à busca constante de conhecimento. 
+                  Sou graduado em Ciências da Computação e atualmente residindo em São Paulo.
+                  Com uma trajetória profissional de 4 anos como Analista de Suporte, encontrei minha afinidade na área de Infraestrutura, onde aplico e aprimoro minhas habilidades diariamente.
                 </div>
             </div> 
             <Linha/>

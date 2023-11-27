@@ -48,6 +48,8 @@ const ContactConteiner = styled.div`
         font-size: 1.5em;
         text-align: justify;
         margin-left: 1em;
+        font-family: 'Bai Jamjuree', sans-serif; 
+        font-weight: lighter;
    }
 
    
