@@ -7,14 +7,7 @@ const ConteinerLinha = styled.div`
   margin: 3em 5em;
 
   @media (max-width: 1024px) {
-   
-    margin: 0;
-    padding: 0;
-    
-    height:100px;
-    border: 1px solid saddlebrown;
-
-    transform: rotate(90deg);
+    display: none;
 }
 
 

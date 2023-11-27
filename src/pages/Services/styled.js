@@ -141,73 +141,127 @@ const ConteinerService = styled.div`
 }
 
 @media (max-width: 1024px) {
-    height: 98vh;
-    width: 95vw;
+  height: 98vh;
+  width: 95vw;
 
-    border: 1px solid black;
+  border: 1px solid black;
 
-    .boxao {
-      border: 1px solid cyan;
-      width: 95vw !important;
-      height: 99vh;
-    }
-    .box-1 {
-      width: 10vw;
-    }
+  .boxao {
+    border: 1px solid cyan;
+    width: 95vw !important;
+    height: 99vh;
+  }
+
+  .box-1 {
+    width: 10vw;
+  }
   
-    .titulo-3 {
-      font-family: 'Bai Jamjuree', sans-serif;
-      text-align: center;
-      color: #070E4E;
-      font-size: 2.4em;
-      text-decoration: #FF6B00 underline;
-      margin-left: 0.5em;
-    }
-  
-    .box-2 {
-      display: none;
-    }
+  .titulo-3 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+    color: #070E4E;
+    font-size: 2.4em;
+    text-decoration: #FF6B00 underline;
+    margin-left: 2.5em;
+  }
 
-   
-  
-    .manutencao {
-      
-   
+  .manutencao, .orcamentos{
+    /* display: none; */
+    margin: -2.5em 0em 0em 2em;
+  }
 
-display: none;
-    }
+  .orcamentos {
+    margin-top: -1em;
+  }
 
-    .seta {
-        width: 0.4em;
-    }
+  .seta {
+      width: 0.4em;
+  }
 
-    .titulo-1, .titulo-2 {
-      font-size: 2em;
-      color: #070E4E;
-      display: flex;
-      flex-direction: row;
-      display: none;
-    }
+  .titulo-1, .titulo-2 {
+    font-size: 2em;
+    color: #070E4E;
+    display: flex;
+    flex-direction: row;
+    /* display: none; */
+    margin-top: -0.5em;
+  }
 
-    .descricao-1, .descricao-2 {
-      border: 1px solid orange;
-      font-size: 0.5em;
-      width:60vw;
-      display: none;
-    }
-    .orcamentos {
-      
-
-      display: none;
-    } 
-    
-    .linha {
-      
-    }
-
- 
+  .descricao-1, .descricao-2 {
+    border: 1px solid orange;
+    font-size: 0.7em;
+    width:60vw;
+    /* display: none; */
+  }
 
     
+  .awa {
+    transform: rotate(90deg);
+    height: 44vh;
+    border: 2px solid #FF6B00;
+    margin-top: 11em;
+    margin-left: 8.29em;
+  }
+
+  .box-2 {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 22em;
+    
+  }
+
+  .fotos {
+    width: 80vw;
+    height: 40vh;
+    margin: 2em 15em 0em 2.5em !important;
+  }
+
+  
+  .maior {
+    width: 59vw;
+    height: 15vh;
+  }
+
+  .maior-lado {
+    width: 20vw;
+    height: 15vh;
+  }
+
+  .maior-baixo-lado {
+    width: 20vw;
+    height: 14vh;
+  }
+
+  .maior-baixo {
+    width: 59vw;
+    height: 14vh;
+  }
+
+  .menor-lado-lado {
+    width: 25vw;
+    height: 11vh;
+  }
+
+  .menor {
+    width: 26vw;
+    height: 11vh;
+  }
+
+  .menor-lado {
+    width: 20vw;
+    height: 11vh;
+  }
+
+  .titulo {
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+    color: #070E4E;
+    font-size: 2.4em;
+    text-decoration: #FF6B00 underline;
+    margin: -0.1em 0em -0.3em -5em;
+  }
+
 }
 
 

@@ -41,7 +41,7 @@ export default function Services() {
                         </div>
                     </div>
                     <div className='linha'><Linha /></div>
-                    
+                    <hr className='awa'></hr>
                     <div className="box-2">
                         <div className="titulo">
                             Galeria
