@@ -45,12 +45,12 @@ export default function Contact() {
         <div className="box">
             <div className="box-1">
                 <div className="titulo">
-                    Sobre Mim
+                    Sobre a Genesys
                 </div>
                 <div className="descricao">
-                  Ao longo de 25 anos de vida, tenho dedicado meu tempo à busca constante de conhecimento. 
-                  Sou graduado em Ciências da Computação e atualmente residindo em São Paulo.
-                  Com uma trajetória profissional de 4 anos como Analista de Suporte, encontrei minha afinidade na área de Infraestrutura, onde aplico e aprimoro minhas habilidades diariamente.
+                    Foi idealizada pelo Vitor, que ao longo de 25 anos de vida, tem dedicado seu tempo à busca constante de conhecimento.
+                    Graduado em Ciências da Computação e que atualmente reside em São Paulo.
+                    <br/> O objetivo da Genesys é alcançar o público que precisa de ajuda para montar seu primeiro setup, ou até mesmo de melhorar o atual.
                 </div>
             </div> 
             <Linha/>

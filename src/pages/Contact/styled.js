@@ -40,6 +40,7 @@ const ContactConteiner = styled.div`
         
    }
 
+  
      .linkedin {
           display: flex;
           flex-direction: row;
@@ -67,13 +68,15 @@ a:hover {
    .descricao {
         margin-top: 3em;
         width: 22vw;
-        height: 10vh;
+        height: 40vh;
 
         font-size: 1.5em;
         text-align: justify;
         margin-left: 1em;
         font-family: 'Bai Jamjuree', sans-serif; 
         font-weight: lighter;
+
+        text-indent: 1em !important;
    }
 
    
