@@ -1,6 +1,6 @@
 import { Container } from "./styles"
 // import Seta from "../../components/seta"
-import { Linhahorizonal } from "../../components/linha horizontal/styled"
+
 
 export default function Home() {
     return (
@@ -16,7 +16,7 @@ export default function Home() {
                 </div>
             </div> 
              {/* <Seta/> */}
-            {/* <Linhahorizonal/> */}
+            
             
              
         </Container>

@@ -30,7 +30,7 @@ const ConteinerService = styled.div`
 
 
 
-.titulo{
+.titulo-3{
   font-family: 'Bai Jamjuree', sans-serif;
   text-align: center;
   color: #070E4E;
@@ -140,6 +140,75 @@ const ConteinerService = styled.div`
   text-indent: 0.35em;
 }
 
+@media (max-width: 1024px) {
+    height: 98vh;
+    width: 95vw;
+
+    border: 1px solid black;
+
+    .boxao {
+      border: 1px solid cyan;
+      width: 95vw !important;
+      height: 99vh;
+    }
+    .box-1 {
+      width: 10vw;
+    }
+  
+    .titulo-3 {
+      font-family: 'Bai Jamjuree', sans-serif;
+      text-align: center;
+      color: #070E4E;
+      font-size: 2.4em;
+      text-decoration: #FF6B00 underline;
+      margin-left: 0.5em;
+    }
+  
+    .box-2 {
+      display: none;
+    }
+
+   
+  
+    .manutencao {
+      
+   
+
+display: none;
+    }
+
+    .seta {
+        width: 0.4em;
+    }
+
+    .titulo-1, .titulo-2 {
+      font-size: 2em;
+      color: #070E4E;
+      display: flex;
+      flex-direction: row;
+      display: none;
+    }
+
+    .descricao-1, .descricao-2 {
+      border: 1px solid orange;
+      font-size: 0.5em;
+      width:60vw;
+      display: none;
+    }
+    .orcamentos {
+      
+
+      display: none;
+    } 
+    
+    .linha {
+      
+    }
+
+ 
+
+    
+}
 
 
 

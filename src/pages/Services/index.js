@@ -15,11 +15,10 @@ export default function Services() {
     return (
       
         <ConteinerService>
-            <div className="conteiner">
                 <div className='boxao'>
                     <div className="box-1">
-                        <div className="titulo">
-                            Serviços
+                        <div className="titulo-3">
+                           Serviços
                         </div>
                        
                         <div className="servicos">
@@ -41,7 +40,8 @@ export default function Services() {
                             </div>
                         </div>
                     </div>
-                    <Linha />
+                    <div className='linha'><Linha /></div>
+                    
                     <div className="box-2">
                         <div className="titulo">
                             Galeria
@@ -65,7 +65,6 @@ export default function Services() {
                     </div>
                     
                 </div>
-            </div>
         </ConteinerService>
     )
 }
