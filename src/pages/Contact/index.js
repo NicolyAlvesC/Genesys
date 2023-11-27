@@ -73,6 +73,7 @@ export default function Contact() {
                         cols="30"
                         rows="10"
                         value={message}
+                        placeholder='Com o que podemos ajudar?'
                         onChange={(e) => setMessage(e.target.value)}>
                     </textarea>
                     <button type="submit">Enviar</button>

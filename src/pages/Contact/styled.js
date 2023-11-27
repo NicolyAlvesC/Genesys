@@ -114,11 +114,16 @@ a:hover {
         margin: 0.2em;
         border: 1px solid white;
         border-radius: 5px;
+        font-family: 'Bai Jamjuree', sans-serif; 
+        font-weight: lighter;
+      font-size: 1.2em;
+      padding-left: 0.5em;
+      padding-top: 0.5em;
    }
 
    textarea {
         resize: none;
-        width: 24.5vw;
+        width: 24vw;
         height: 21vh;
         box-shadow:
                 1px 1px #070E4E,
