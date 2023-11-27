@@ -82,5 +82,66 @@ const Container = styled.div`
 ::-webkit-scrollbar-thumb {
     background: #dad7d7;
 }
+
+
+
+
+@media (max-width: 1024px) {
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 98vh;
+    width: 95vw;
+
+.titulo {
+    font-size: 3em;
+    margin-top: 0.6em;
+}
+
+p:\nth-child(2) { 
+        animation: type2 20s steps(60, end);
+    }
+
+    
+    span{
+    animation: blink 1s infinite;
+    }
+
+    @keyframes type{ 
+    from { width: 0; } 
+    } 
+
+    @keyframes type2{
+    0%{width: 0;}
+    50%{width: 30;}
+    100%{ width: 100; } 
+    } 
+
+    @keyframes blink{
+    to{opacity: .0;}
+    }
+
+
+    .subtitulo {
+        font-family: 'Bai Jamjuree', sans-serif;
+
+        /* border: 1px solid red; */
+        
+        color: #070E4E;
+        font-size: 1em;
+
+        white-space: nowrap; 
+        overflow: hidden; 
+        width: 50vw;
+        margin-left: 15.3em;
+        margin-top: -1em;
+        animation: type 3s steps(60, end);
+    }
+
+}
+
+
+
 `
 export {Container}

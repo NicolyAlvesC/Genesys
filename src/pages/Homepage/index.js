@@ -5,7 +5,7 @@ import { Linhahorizonal } from "../../components/linha horizontal/styled"
 export default function Home() {
     return (
         <Container>
-            	<div class="stars" ></div>
+            	
 
              <div className="box">
                 <div className="titulo">
