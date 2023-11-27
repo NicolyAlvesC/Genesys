@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import emailjs from '@emailjs/browser';
-
+import { Link } from 'react-router-dom';
+import image11 from '../../assets/images/Vector.png'
 import { ContactConteiner } from './styled';
 import Linha from '../../components/linha';
+
 
 export default function Contact() {
     
@@ -75,9 +77,14 @@ export default function Contact() {
                     </textarea>
                     <button type="submit">Enviar</button>
                 </form> 
+                
             </div>
         </div>
-
+        <div className='linkedin'>
+                            <a href="https://www.linkedin.com/in/nicoly-alves/"><p>Site: Nicoly Alves</p></a>
+                            <img src={image11} alt="linked"/>
+                            <a href="https://www.linkedin.com/in/vitor-sena-b71aba187/"><p>Owner: Vitor Sena</p></a>
+                        </div>
        
     </ContactConteiner>
   )

@@ -40,6 +40,30 @@ const ContactConteiner = styled.div`
         
    }
 
+     .linkedin {
+          display: flex;
+          flex-direction: row;
+          align-content: center;
+          justify-content: center;
+          font-family: 'Bai Jamjuree', sans-serif; 
+          font-weight: lighter;
+     }
+
+     a {
+          text-decoration: none;
+          color: #070E4E;
+
+     }
+img {
+     width: 2vw;
+     height: 2vw;
+     margin: 5px;
+}
+
+a:hover {
+     color: #FF6B00;
+     font-weight: bold;
+}
    .descricao {
         margin-top: 3em;
         width: 22vw;
