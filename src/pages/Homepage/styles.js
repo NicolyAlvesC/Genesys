@@ -134,11 +134,21 @@ p:\nth-child(2) {
         white-space: nowrap; 
         overflow: hidden; 
         width: 50vw;
-        margin-left: 15.3em;
+        margin-left: 0.4em;
         margin-top: -1em;
         animation: type 3s steps(60, end);
     }
 
+    .box {
+        position: absolute;
+        top: 50%;
+        border: 1px solid red;
+
+        width: 54vw;
+        margin-left: -6em;
+    }
+
+    
 }
 
 

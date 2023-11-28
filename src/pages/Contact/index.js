@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import emailjs from '@emailjs/browser';
-import { Link } from 'react-router-dom';
-import image11 from '../../assets/images/Vector.png'
 import { ContactConteiner } from './styled';
+import emailjs from '@emailjs/browser';
+import image11 from '../../assets/images/Vector.png'
+
 import Linha from '../../components/linha';
 
 
@@ -43,17 +43,18 @@ export default function Contact() {
   return (
     <ContactConteiner>
         <div className="box">
-            <div className="box-1">
-                <div className="titulo">
-                    Sobre a Genesys
-                </div>
-                <div className="descricao">
-                    Foi idealizada pelo Vitor, que ao longo de 25 anos de vida, tem dedicado seu tempo à busca constante de conhecimento.
-                    Graduado em Ciências da Computação e que atualmente reside em São Paulo.
-                    <br/> O objetivo da Genesys é alcançar o público que precisa de ajuda para montar seu primeiro setup, ou até mesmo de melhorar o atual.
-                </div>
-            </div> 
-            <Linha/>
+          <div className="box-1">
+            <div className="titulo">
+                Sobre a Genesys
+            </div>
+            <div className="descricao">
+                Foi idealizada pelo Vitor que têm dedicado seu tempo à busca constante de conhecimento.
+                Graduado em Ciências da Computação e que atualmente reside em São Paulo.
+                <br/> O objetivo da Genesys é alcançar o público que precisa de ajuda para montar seu primeiro setup, ou até mesmo de melhorar o atual.
+            </div>
+          </div> 
+          <div className='linha'><Linha/></div> 
+           <hr className='awa'></hr>
             <div className="box-2">
                 <div className='titulo-2'>Contatos</div>
                  <form onSubmit={handleSubmit} className='emailForm'>
