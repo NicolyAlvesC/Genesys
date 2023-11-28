@@ -6,7 +6,9 @@ const ConteinerService = styled.div`
   width: 98vw;
   background-color: white;
 
- 
+ .awa {
+  display: none;
+ }
 
 .boxao {
   width: 97vw;
@@ -30,7 +32,7 @@ const ConteinerService = styled.div`
 
 
 
-.titulo-3{
+.titulo-3, .titulo{
   font-family: 'Bai Jamjuree', sans-serif;
   text-align: center;
   color: #070E4E;

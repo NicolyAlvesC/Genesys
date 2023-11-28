@@ -9,8 +9,11 @@ const ContactConteiner = styled.div`
     height: 98vh;
     width: 98vw;
 
-    margin: 0;
-    padding: 0;
+     box-sizing: border-box;
+
+  .awa {
+     display: none;
+  }
 
     .box {
         /* border: 1px solid tomato; */
@@ -62,7 +65,7 @@ img {
 }
 
 a:hover {
-     color: #FF6B00;
+     color: white;
      font-weight: bold;
 }
    .descricao {

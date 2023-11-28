@@ -6,9 +6,6 @@ const ConteinerLinha = styled.div`
   border-left: 3px solid #FF6B00;
   margin: 3em 5em;
 
-  @media (max-width: 1024px) {
-    display: none;
-}
 
 
 
