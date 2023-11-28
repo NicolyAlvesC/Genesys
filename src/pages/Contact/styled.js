@@ -155,49 +155,40 @@ a:hover {
 
      
    @media (max-width: 1024px) {
-     border: 1px solid royalblue;
-     background-color: royalblue;
-
+     border: 1px solid yellow;
      display: flex;
      flex-direction: column !important;
-   
+     background-color: white;
      height: 98vh;
      width: 95vw;
 
      .box {
-          height: 10vh;
+          display:flex ;
+          flex-direction: column;
+
+
+          border: 1px solid rebeccapurple;
      }
 
      .box-1 {
-          background-color: skyblue;
-          
+          border: 1px solid skyblue;
           width: 95vw;
-          height: 96vh;
-
-          margin-top: 0.5em;
-          margin-left: 11em;
+          height: 50vh;
      }
 
      .titulo {
-          background-color: sandybrown;
-
-          font-size: 2.4em;
-          width: 92vw;
+          border: 1px solid sandybrown;
      }
      
 
      .descricao {
           border: 1px solid olivedrab;
-
-          font-size: 0.5em;
-          width: 87vw;
-          height: fit-content;
      }
 
-   .awa {
-     margin: 0;
-     padding: 0;
-   }
+     .awa {
+          display: none;
+     }
+   
 
     .box-2 {
           border: 1px solid darkgoldenrod;
