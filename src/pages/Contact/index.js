@@ -15,9 +15,9 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceId = 'service_y0fz9kj';
-    const templateId = 'template_larusmi';
-    const publicKey = 'VYDKZdgOtB7_8W6mQ';
+    const serviceId = 'sservice_w05qnh1';
+    const templateId = 'template_doasd2h';
+    const publicKey = 'YFo2mESA-0uc7OWeD';
 
   
     const templateParams = {
