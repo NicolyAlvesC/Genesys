@@ -65,7 +65,7 @@ img {
 }
 
 a:hover {
-     color: white;
+     color: blueviolet;
      font-weight: bold;
 }
    .descricao {

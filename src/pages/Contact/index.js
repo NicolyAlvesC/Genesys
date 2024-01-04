@@ -3,10 +3,13 @@ import { ContactConteiner } from './styled';
 import emailjs from '@emailjs/browser';
 import image11 from '../../assets/images/Vector.png'
 
+
 import Linha from '../../components/linha';
 
 
 export default function Contact() {
+
+
     
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -15,7 +18,7 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceId = 'sservice_w05qnh1';
+    const serviceId = 'service_w05qnh1';
     const templateId = 'template_doasd2h';
     const publicKey = 'YFo2mESA-0uc7OWeD';
 
