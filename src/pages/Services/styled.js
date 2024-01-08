@@ -265,7 +265,7 @@ const ConteinerService = styled.div`
     color: #070E4E;
     font-size: 2.4em;
     text-decoration: #FF6B00 underline;
-    margin: -0.1em 0em -0.3em -5em;
+    margin: -0.1em 0em -0.3em 5em;
   }
 
 }
