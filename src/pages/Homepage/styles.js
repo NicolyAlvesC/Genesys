@@ -142,7 +142,7 @@ p:\nth-child(2) {
     .box {
         position: absolute;
         top: 50%;
-        border: 1px solid red;
+        
 
         width: 54vw;
         margin-left: -6em;

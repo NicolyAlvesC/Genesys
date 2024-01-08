@@ -1,4 +1,3 @@
-
 import styled from "styled-components";
 
 const ConteinerService = styled.div`
@@ -152,11 +151,9 @@ const ConteinerService = styled.div`
     border: 1px solid cyan;
     width: 95vw !important;
     height: 99vh;
-  }
 
-  .box-1 {
-    width: 10vw;
   }
+ 
   
   .titulo-3 {
     font-family: 'Bai Jamjuree', sans-serif;
@@ -164,7 +161,7 @@ const ConteinerService = styled.div`
     color: #070E4E;
     font-size: 2.4em;
     text-decoration: #FF6B00 underline;
-    margin-left: 2.5em;
+    margin-left: 1.6em;
   }
 
   .manutencao, .orcamentos{
@@ -190,26 +187,33 @@ const ConteinerService = styled.div`
   }
 
   .descricao-1, .descricao-2 {
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     font-size: 0.7em;
     width:60vw;
     /* display: none; */
   }
 
-    
-  .awa {
+ hr {
     transform: rotate(90deg);
-    height: 44vh;
+    height: 33vh;
     border: 2px solid #FF6B00;
-    margin-top: 11em;
-    margin-left: 8.29em;
+    margin: 0;
+    padding: 0;
+    margin-top: 14em;
+    margin-left: 1.3em;
   }
 
+  .linha {
+    display: none;
+  }
+
+  
   .box-2 {
     display: flex;
     flex-direction: column;
-
-    margin-top: 22em;
+    
+    margin-top: 24em;
+    margin-left: 2em
     
   }
 
