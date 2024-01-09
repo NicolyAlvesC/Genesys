@@ -42,6 +42,10 @@ const ConteinerService = styled.div`
   
 }
 
+hr {
+  display:none;
+}
+
 
 .fotos {
   display: flex;
